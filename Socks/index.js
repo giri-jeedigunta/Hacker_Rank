@@ -14,6 +14,7 @@ const matchingSocks = (socks) => {
     }
     console.log('arr->', sockStack);
     console.log('counter =>', counter);    
+    return counter;
 }
 
 matchingSocks([10,20,20,10,10,30,50,10,20]);
